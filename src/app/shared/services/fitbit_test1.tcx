@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2">
+    <Activities>
+        <Activity Sport="Biking">
+            <Id>2022-06-11T13:21:54.000-04:00</Id>
+            <Lap StartTime="2022-06-11T13:21:54.000-04:00">
+                <TotalTimeSeconds>8395.0</TotalTimeSeconds>
+                <DistanceMeters>17807.210000000003</DistanceMeters>
+                <Calories>862</Calories>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+                <Track>
+                    <Trackpoint>
+                        <Time>2022-06-11T13:21:54.000-04:00</Time>
+                        <Position>
+                            <LatitudeDegrees>45.53457057476044</LatitudeDegrees>
+                            <LongitudeDegrees>-73.56578242778778</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>0.0</AltitudeMeters>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <HeartRateBpm>
+                            <Value>90</Value>
+                        </HeartRateBpm>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <Time>2022-06-11T13:25:17.000-04:00</Time>
+                        <Position>
+                            <LatitudeDegrees>45.534374713897705</LatitudeDegrees>
+                            <LongitudeDegrees>-73.56605315208435</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>27.9</AltitudeMeters>
+                        <DistanceMeters>38.00000000000001</DistanceMeters>
+                        <HeartRateBpm>
+                            <Value>125</Value>
+                        </HeartRateBpm>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <Time>2022-06-11T13:25:18.000-04:00</Time>
+                        <Position>
+                            <LatitudeDegrees>45.53437113761902</LatitudeDegrees>
+                            <LongitudeDegrees>-73.56606411933899</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>55.8</AltitudeMeters>
+                        <DistanceMeters>39.330000000000005</DistanceMeters>
+                        <HeartRateBpm>
+                            <Value>125</Value>
+                        </HeartRateBpm>
+                    </Trackpoint>
+                </Track>
+            </Lap>
+            <Creator xsi:type="Device_t" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <UnitId>0</UnitId>
+                <ProductID>0</ProductID>
+            </Creator>
+        </Activity>
+    </Activities>
+</TrainingCenterDatabase>

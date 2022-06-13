@@ -39,6 +39,13 @@ module.exports = function (config) {
     autoWatch: true,
     browsers: ['Chrome'],
     singleRun: false,
-    restartOnFileChange: true
+    restartOnFileChange: true,
+    files: [
+      {
+        pattern:'src/app/shared/services/fitbit_test1.tcx',
+        type:'dom'
+      }
+      
+    ]
   });
 };
