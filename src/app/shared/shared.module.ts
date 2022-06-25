@@ -1,14 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MapContainerComponent } from './components/map-container/map-container.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    MapContainerComponent
+  ],
   imports: [
-    CommonModule
+    CommonModule,
   ],
   exports:[
-    
+    CommonModule,
+    MapContainerComponent
   ]
 })
 export class SharedModule { }
